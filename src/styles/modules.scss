@@ -1,0 +1,24 @@
+.inputfield_component {
+    margin-bottom: 15px;
+    label {
+        display: block;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .input_text {
+        width: 300px;
+        height: 25px;
+        text-align: center;
+        color: white;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px;
+        &:focus {
+            cursor: text;
+        }
+    }
+}

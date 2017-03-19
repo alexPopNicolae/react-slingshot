@@ -1,31 +1,7 @@
-/* Variables */
-$vin-blue: #5bb7db;
-$vin-green: #60b044;
-$vin-red: #ff0000;
-
-/* Styles */
-body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
-}
-
-td {
-	padding: 12px;
-}
-
-h2 {
-	color: $vin-blue;
-}
-
-.savings { color: $vin-green; }
-.loss { color: $vin-red; }
-input.small { width: 46px; }
-td.fuel-savings-label { width: 175px; }
+@import 'fonts';
+@import 'variables'; //wireframes colors, color scheme and variables
+@import 'layout'; //style used for different pages
+@import  'modules'; //for styling common components in app
+@import 'controls'; //for styling the simple HTML components
+@import 'others'; //any other style that is needed but does not fit in the above categories
+@import 'shame'; //this file should be empty and should be used only for hacks that are not beautiful or for emergencies
