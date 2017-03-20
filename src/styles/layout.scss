@@ -33,4 +33,29 @@ body{
             }
         }
     }
-
+    
+.container_large {
+    width: 900px;
+    min-height: 1000px;
+    background: white;
+    .inner_container {
+        width: 100%;
+        min-height: 1000px;
+        background: $violet;
+        transform: translateX(20px);
+         box-shadow: 2px 2px 5px black;
+        h1 {
+            text-align: center;
+            padding: 5px;
+            box-shadow: 2px 2px 5px black;
+        }
+    }
+}
+.questions_page {
+    display: flex;
+ .test_informations_area {
+        width: 40%;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+}

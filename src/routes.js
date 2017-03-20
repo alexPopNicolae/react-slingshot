@@ -8,6 +8,7 @@ import AboutPage from './components/AboutPage';
 import NotFoundPage from './components/NotFoundPage';
 import TestPage from './components/TestPage';
 import UserFillDetailsPage from './components/UserFillDetailsPage';
+import QuestionsPage from './components/QuestionsPage';
 
 export default (
   <Route path="/" component={App}>
@@ -16,6 +17,7 @@ export default (
     <Route path="about" component={AboutPage}/>
     <Route path="testpage" component={TestPage} />
     <Route path="userdetails" component={UserFillDetailsPage}/>
+    <Route path="questions" component={QuestionsPage} />
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

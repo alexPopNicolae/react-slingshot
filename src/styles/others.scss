@@ -1,0 +1,26 @@
+.test_page {
+    width: 1200px;
+    margin: 0 auto;
+    background: $violet;
+    color: white;
+    padding: 10px;
+    .component_item {
+        margin-top: 20px;
+        background: #3498db;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 5px 5px 5px black;
+        transform: translateX(20px);
+        &.left {
+            transform: translateX(-40px);
+            background: $light_green;
+        }
+
+        .line {
+            width: 300px;
+            height: 3px;
+            background: white;
+            transform: skewX(20px);
+        }
+    }
+}
