@@ -8,7 +8,9 @@ class RadialProgressBar extends React.Component {
         super(props);
 
         this.state = {
-            progress: 53
+            progress: 53,
+            solevedQuestions: 10,
+            totalQuestions:20
         };
 
         this.sus = this.sus.bind(this);
@@ -49,7 +51,7 @@ class RadialProgressBar extends React.Component {
             <div className="progress_bar">
                 <div className="progress_container">
                     <div id="circle" className="circle"/>
-                    <div className="value">{this.state.progress}%</div>
+                    <div className="value">{this.state.solevedQuestions}/{this.state.totalQuestions}</div>
                 </div>
             </div>
         );

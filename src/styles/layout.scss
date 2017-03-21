@@ -53,8 +53,11 @@ body{
 }
 .questions_page {
     display: flex;
+.container_large {
+    width:50%;
+}
  .test_informations_area {
-        width: 40%;
+        width: 50%;
         padding-left: 100px;
         padding-top: 100px;
     }

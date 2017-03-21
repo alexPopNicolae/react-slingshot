@@ -1,5 +1,6 @@
 import React from 'react';
 import RadialProgressBar from '../generalComponents/RadialProgressBar';
+import MultipleAnswerComponent from '../generalComponents/MultipleAnswerComponent';
 
 const TestPage = () => {
     return (
@@ -10,8 +11,9 @@ const TestPage = () => {
                 <RadialProgressBar />
             </div>
             <div className="component_item left">
-                <p>This is another component</p>
-                <div className="line"></div>
+                <h1>Multiple answer question component</h1>
+                <p>This is a a component used for multiple answers</p>
+                <MultipleAnswerComponent />
             </div>
         </div>
     );
