@@ -38,3 +38,78 @@
         }
     }
 }
+.multiple_answer_component, .single_answer_component {
+    padding: 50px;
+     .question {
+        width: 100%;
+        box-shadow: 5px 5px 15px black;
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+
+.checkbox_component {
+    margin-bottom: 20px;
+
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox]+label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: white;
+        margin-right:10px;
+        padding: 0;
+    }
+     input[type=checkbox]:checked + label {
+         background-image:url('../resources/images/green-avatar-checkmark.png');
+         cursor: pointer;
+    }
+  
+    span {
+         display: inline-block;
+         height: 20px;
+         transform: translateY(-5px);
+        }
+    }
+
+.radio_button_component {
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    input[type=radio] {
+       width: 20px;
+       height: 20px;
+       position: absolute;
+       z-index: 2;
+       opacity: 0;
+       cursor: pointer;
+        & + label {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: white;
+            margin-right: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+        }
+        &:checked + label > label {
+            display: block;
+            width:10px;
+            height: 10px;
+            background: $green;
+            border-radius: 50%;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+        }
+    }
+     span {
+         display: inline-block;
+         height: 20px;
+         transform: translateY(-5px);
+        }
+    
+}
