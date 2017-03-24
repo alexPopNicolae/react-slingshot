@@ -1,6 +1,5 @@
 import React, {PropTypes} from 'react';
 import CheckBox from '../generalComponents/CheckBoxComponent';
-import Radio from '../generalComponents/RadioComponent';
 /**
  * This is now a simple component which wili be modified in the future
  * so that it will map the checkbox base on the object received from the 

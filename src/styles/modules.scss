@@ -38,7 +38,10 @@
         }
     }
 }
-.multiple_answer_component, .single_answer_component {
+.multiple_answer_component,
+.single_answer_component, 
+.text_area_answer,
+.drag_and_drop_component {
     padding: 50px;
      .question {
         width: 100%;
@@ -112,4 +115,20 @@
          transform: translateY(-5px);
         }
     
+}
+.text_area_answer {
+    textarea {
+        width: 80%;
+        height: 300px;
+        resize: none;
+        font-size: 18px;
+    }
+}
+.drag_and_drop_component {
+    .dragable_div {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        background: $dark;
+    }
 }

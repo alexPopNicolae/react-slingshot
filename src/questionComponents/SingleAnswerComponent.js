@@ -9,7 +9,7 @@ class SingleAnswerComponent extends React.Component {
     }
 
     handleClick () {
-        $()
+       
     }
 
     render() {
